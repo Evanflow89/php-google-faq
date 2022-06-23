@@ -5,5 +5,14 @@
 }
 
 .container {
-    max-width: 73.75rem;
+    max-width: 62.5rem;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    padding: 1.25rem 0;
 }

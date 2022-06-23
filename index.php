@@ -36,11 +36,13 @@ $faqs = [
 </head>
 <body>
     <div class="container">
+        <ul>
         <?php foreach($faqs as $faq) { ?>
 <?php foreach ($faq as $elm) { ?>
-<?= $elm ?>;
+<li><?= $elm ?> </li>
     <?php } ?>
  <?php } ?>
+ </ul>
     </div>
 </body>
 </html>
